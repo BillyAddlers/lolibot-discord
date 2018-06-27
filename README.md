@@ -159,3 +159,9 @@ client.on('message', msg => {
 
 client.login('token');
 ```
+
+Wes bar?
+
+Oke~
+
+Happy Coding XD..
