@@ -5,7 +5,9 @@ don't forget to install node.js, npm, and discord.js
 
 ## Ubuntu 18.04 :
 
-`$ sudo apt -y install npm nodejs-legacy`
+```css
+$ sudo apt -y install npm nodejs-legacy
+```
 
 ## Ubuntu 16.04 :
 
@@ -14,7 +16,9 @@ Gunakan metode Debian untuk Ubuntu versi ini.
 
 ## Arch Linux : 
 
-`$ sudo pacman -S npm nodejs`
+```css
+$ sudo pacman -S npm nodejs
+```
 
 ## Windows :
 
@@ -31,7 +35,9 @@ $ cinst nodejs.install
 
   Atau Scoop :3 (https://scoop.sh)
   
-`$ scoop install nodejs`
+```css
+$ scoop install nodejs
+```
 
 ## Android :
 Mboh iso po ora~
@@ -43,103 +49,149 @@ Mboh iso po ora~
 ## Debian 7 (lan sak panunggalane) :
 Termasuk Linux Mint, Linux Mint Debian Edition, elementaryOS, dkk
 
-`$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -`
-`$ sudo apt-get install -y nodejs`
+```css
+$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+```
 
   Iki lek pengen nodejs 10
   
-`$ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
-`$ sudo apt-get install -y nodejs`
+```css
+$ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+```
 
   Lek pengen compile dewe
 
-`$ sudo apt install -y build-essential`
+```css
+$ sudo apt install -y build-essential
+```
 
 ## Enterprise Linux & Fedora :
 
   RHEL, CentOS, Fedora
 
-`$ curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -`
+```css
+$ curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
+```
 
   Iki lek pengen nodejs 10
 
-`$ curl --silent --location https://rpm.nodesource.com/setup_10.x | sudo bash -`
+```css
+$ curl --silent --location https://rpm.nodesource.com/setup_10.x | sudo bash -
+```
 
   Ojo lali di install
-  
-`$ sudo yum -y install nodejs`
+ 
+```css
+$ sudo yum -y install nodejs
+```
 
   Lek arep compile dewe
  
-`$ sudo yum install gcc-c++ make`
+```css
+$ sudo yum install gcc-c++ make
+```
 
   Fedora Alternative
   
-`$ sudo dnf install nodejs`
+```css
+$ sudo dnf install nodejs
+```
 
   Enterprise Linux Alternative (RHEL and CentOS)
 
-`$ sudo yum install nodejs npm --enablerepo=epel`
+```css
+$ sudo yum install nodejs npm --enablerepo=epel
+```
 
 ## FreeBSD :
 
-`$ pkg install node`
+```css
+$ pkg install node
+```
 
   Lek arep compile dewe nggae Ports (https://www.freebsd.org/cgi/man.cgi?ports)
   
-`$ cd /usr/ports/www/node && make install`
+```css
+$ cd /usr/ports/www/node && make install
+```
 
 ## Gentoo :
 
-`$ emerge nodejs`
+```css
+$ emerge nodejs
+```
 
 ## NetBSD :
 
-`$ cd /usr/pkgsrc/lang/nodejs && make install`
+```css
+$ cd /usr/pkgsrc/lang/nodejs && make install
+```
 
   Lek arep nggae binary pkgin
   
-`$ pkgin -y install nodejs`
+```css
+$ pkgin -y install nodejs
+```
 
 ## openSUSE :
 
-`$ zypper install nodejs4`
+```css
+$ zypper install nodejs4
+```
 
 ## macOS :
 
   Download paketnya langsung dari bash
 
-`$ curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"`
+```css
+$ curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
+```
 
   Atau gunakan homebrew
   
-`$ brew install node`
+```css
+$ brew install node
+```
 
 ## SmartOS and illumos :
 
-`$ pkgin -y install nodejs`
+```css
+$ pkgin -y install nodejs
+```
 
   Atau build manual
   
-`$ cd pkgsrc/lang/nodejs && bmake install`
+```css
+$ cd pkgsrc/lang/nodejs && bmake install
+```
 
 ## Void Linux :
 
-`$ xbps-install -Sy nodejs`
+```css
+$ xbps-install -Sy nodejs
+```
 
 ## Solus :
 
-`$ sudo eopkg install nodejs`
+```css
+$ sudo eopkg install nodejs
+```
 
 # Installing Discord.js
 
 Set-up development environment dulu
 
-`$ npm init`
+```css
+$ npm init
+```
 
 Setelah itu, install module yang diperlukan. Terutama Discord.js nya
 
-`$ npm install --save discord.js node-opus bufferutil erlpack libsodium-wrappers uws`
+```css
+$ npm install --save discord.js node-opus bufferutil erlpack libsodium-wrappers uws
+```
 
 Sampel yang diambil dari dokumentasi
 
